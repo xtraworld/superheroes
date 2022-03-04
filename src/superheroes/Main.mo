@@ -17,7 +17,7 @@ actor Superheroes {
    */
 
   // The type of a superhero identifier.
-  public type SuperheroId = Word32;
+  public type SuperheroId = Nat32;
 
   // The type of a superhero.
   public type Superhero = {
